@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1>Search by Field</h1>
+
+<form action="/findByRecallNumber" method"GET">
+  <input type="text" placeholder="Search by Recall Number" name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+<form action="/findByCategory" method"GET">
+  <input type="text" placeholder="Search by Category" name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+<form action="/findBySystemType" method"GET">
+  <input type="text" placeholder="Search by System Type" name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+  <% include ../partials/nav.ejs %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1>Please Upload a JSON File of Recall Data</h1>
+      <h2>Please note this may take some time for processing</h2>
+      <form action="/uploadfile" enctype="multipart/form-data" method="POST">
+          <input class= "fileupload" type="file" name="myFile" />
+          <input class = "submit" type="submit" value="Upload File"/>
+      </form>
+    </div>
+</div>
+
+</body>
+</html>
