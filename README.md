@@ -1,6 +1,6 @@
 # # API_TransportCanadaVRD_NodeJs
-> This is a node.js api to process car recall numbers, access Transport Canada's VRD, and provide a json file of results.
-> I made this as part of a government interview. The interview was a group interview, where each participant made their own API. This repository holds my API and my web app. 
+> This project is a node.js app and express API. The app accepts json data of recall numbers and the API accepts this data, consumes transport canada's API, and posts processed data. 
+> I made this as part of a government interview, if this project seems directionless. The interview was a group interview, where each participant made their own API and one person made a web app. This repository holds my API and my web app. 
 Because this was made for an interview, with limited time to build, the project is not fully fleshed out. 
 Steps detailed in this readme will help to run the project, because it is not very intuitive. Maybe someone will find this useful!
 
