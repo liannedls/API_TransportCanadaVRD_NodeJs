@@ -4,14 +4,6 @@
 Because this was made for an interview, with limited time to build, the project is not fully fleshed out. 
 Steps detailed in this readme will help to run the project, because it is not very intuitive. Maybe someone will find this useful!
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
-One to two paragraph statement about your product and what it does.
-
-![](header.png)
-
 ## Setup 
 1. [Download](https://github.com/liannedls/API_TransportCanadaVRD_NodeJs/blob/master/sampleJSONdata.json) locally sample JSON data.
 2. git clone git@github.com:liannedls/API_TransportCanadaVRD_NodeJs.git
