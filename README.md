@@ -13,14 +13,14 @@ Steps detailed in this readme will help to run the project, because it is not ve
 # Test
 1. Navigate to http://localhost:5000/
 
-![Seach Page](./screenshot_transportcanadaAPI_searchby.png)
+![Seach Page](./screenshot_transportcanadaAPI.png)
 
 2. Load the JSON data downloaded in step 1.
 3. Click upload file.
 4. Wait for data to be processed (will take some time). You can look on your terminals to see the data being processed.
 5. After processing, page http://localhost:5000/results will load. Test the search by recall number field with value "2017464".
 
-![Seach Page](./screenshot_transportcanadaAPI.png)
+![Seach Page](./screenshot_transportcanadaAPI_searchby.png)
 
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
